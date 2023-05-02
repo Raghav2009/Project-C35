@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+
+    <!--Add your Firsebase Config here below. -->
+    <!-- firebase start -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+
+  <script>
+    // Your Firebase configuration - the part u need to change
+    const firebaseConfig = {
+  apiKey: "AIzaSyDIdquMsVf4Vpyg_tR1j__X_jgOqZ7dwnU",
+  authDomain: "project-c35-e3eda.firebaseapp.com",
+  databaseURL: "https://project-c35-e3eda-default-rtdb.firebaseio.com",
+  projectId: "project-c35-e3eda",
+  storageBucket: "project-c35-e3eda.appspot.com",
+  messagingSenderId: "812129529844",
+  appId: "1:812129529844:web:629d0b0897a2432fcb93a1"
+};
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+<!-- firebase end  -->
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
